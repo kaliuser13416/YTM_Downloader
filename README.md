@@ -2,13 +2,13 @@
 A Python script that imports export data from YouTube Music and downloads the songs. This script is specifically made for the CSV files from a 'Google TakeOut'. All of the songs that couldn't downloaded are logged. After all the songs are downloaded, they are moved to a sub-directory called 'music'.
 
 ## Setup
-Download Main.py, install the requirements with pip3, move the CSV files to the same directory, then run Main.py. 
+Download Main.py, install the requirements with pip3, move the CSV files from the Google Takeout to the same directory, then run Main.py.
 
 ## Requirements
 Pyhton 3.10+
+- os
 - pandas
 - pytubefix
-- pytube
 
 ## Google Takeout
 - Step 1, Visit https://myaccount.google.com/dashboard
